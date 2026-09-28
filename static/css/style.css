@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    padding: 8px;
+    border-bottom: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+}
+
+.titulo img {
+    width: 50%;
+}
+
+.titulo h1 {
+    font-size: 42px;
+}
+
+.titulo h1 span {
+    color: #EB9822;
+}
+
+.barra-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.login {
+    display: flex;
+}
+
+.email {
+    border: solid 2px black;
+    padding: 3px;
+}
+
+.emailBoton {
+    font-weight: bold;
+    padding: 5px;
+    border: solid 2px black;
+    border-left: none;
+    background-color: #F09200;
+    cursor: pointer;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+main {
+    padding: 1px 220px;
+}
+
+.listaPlatillos {
+    padding: 20px 25px 10px 25px;
+    background-color: #F9CB9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.platillo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.platillo img {
+    height: 100px;
+    width: 110px;
+    border: solid 2px black;
+}
+
+.recomendaciones {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.derecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2.3;
+    background-color: #CCCCCC;
+    padding: 10px;
+}
+
+.texto {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.textoGrande {
+    text-align: center;
+    font-size: 35px;
+}
+
+.textoPequeño {
+    margin: 0 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.textoPequeño a {
+    color: black;
+}
+
+.textoPequeño span {
+    color: #F8A138;
+}
+
+.imagen img {
+    height: 310px;
+    width: 350px;
+    border: solid 2px black;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    flex: 1;
+}
+
+.izquierda h2 {
+    font-size: 28px;
+}
+
+.superior {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inferior {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imagenIzq img {
+    height: 100px;
+    width: 250px;
+    border: solid 2px black;
+}
+
+.orden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.añadir {
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}

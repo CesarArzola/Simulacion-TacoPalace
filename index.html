@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="César Arzola">
+    <title>Taco Palace</title>
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="titulo">
+            <img src="static/img/logo.png" alt="Logo">
+            <h1><span>Taco</span>Palace</h1>
+        </div>
+        <nav class="barra-nav">
+            <form class="login">
+                <input type="text" id="email" class="email" placeholder="email" required>
+                <button class="emailBoton" id="iniciar" onclick="iniciar()">Login</button>
+            </form>
+            <div class="carrito">
+                <img src="static/img/carrito.png" alt="Carrito">
+                <span>0</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="listaPlatillos">
+            <div class="platillo">
+                <img src="static/img/enchiladas.jpg" alt="enchiladas">
+                <p>Enchiladas</p>
+            </div>
+            <div class="platillo">
+                <img src="static/img/tacos.jpg" alt="tacos">
+                <p>Tacos</p>
+            </div>
+            <div class="platillo">
+                <img src="static/img/flautas.jpg" alt="flautas">
+                <p>Flautas</p>
+            </div>
+            <div class="platillo">
+                <img src="static/img/gorditas.jpg" alt="gorditas">
+                <p>Gorditas</p>
+            </div>
+            <div class="platillo">
+                <img src="static/img/tostadas.jpg" alt="tostadas">
+                <p>Tostadas</p>
+            </div>
+            <div class="platillo">
+                <img src="static/img/enfrijoladas.jpg" alt="enfrijoladas">
+                <p>Enfrijoladas</p>
+            </div>
+        </section>
+        <section class="recomendaciones">
+            <div class="derecha">
+                <div class="texto">
+                    <div class="textoGrande">
+                        <p>La mejor variedad en platillos de comida <strong>mexicana</strong></h2>
+                    </div>
+                    <div class="textoPequeño">
+                        <p>Contamos con <a href="#">servicio</a> a <span>domicilio</span></p>
+                    </div>
+                </div>
+                <div class="imagen">
+                    <img src="static/img/comida-mexicana.jpg" alt="Comida mexicana">
+                </div>
+            </div>
+            <div class="izquierda">
+                <h2>Recomendados:</h2>
+                <div class="superior">
+                    <div class="imagenIzq">
+                        <img src="static/img/orden-tacos.jpg" alt="Orden de tacos">
+                    </div>
+                    <div class="orden">
+                        <div>
+                            <p>Orden de FLautas</p>
+                            <a href="#">Ver Más...</a>
+                        </div>
+                        <div>
+                            <p class="añadir">+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inferior">
+                    <div class="imagenIzq">
+                        <img src="static/img/orden-flautas.jpg" alt="Orden de flautas">
+                    </div>
+                    <div class="orden">
+                        <div>
+                            <p>Orden de FLautas</p>
+                            <a href="#">Ver Más...</a>
+                        </div>
+                        <div>
+                            <p class="añadir">+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="static/js/script.js"></script>
+    </main>
+</body>
+
+</html>
