@@ -8,3 +8,9 @@ function iniciar() {
         alert(`Bienvenido/a ${correo}`);
     }
 };
+
+let cantidadCarrito = 0;
+function agregarAlCarrito() {
+    cantidadCarrito++
+    document.getElementById(`contador`).textContent = cantidadCarrito;
+}
